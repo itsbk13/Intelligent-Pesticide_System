@@ -1,0 +1,54 @@
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+albumentations>=1.3.0
+segmentation-models-pytorch>=0.3.0
+timm>=0.9.0
+
+# Data Science & Core Analytics
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Progress Tracking & Experiment Management
+tqdm>=4.65.0
+tensorboard>=2.13.0
+wandb>=0.15.0
+
+# Development Environment
+pillow>=9.5.0
+pyyaml>=6.0
+jupyter>=1.0.0
+notebook>=6.5.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+
+# File & Data Management
+pathlib2>=2.3.7
+h5py>=3.8.0
+
+# Code Quality & Testing
+black>=23.0.0
+isort>=5.12.0
+pytest>=7.4.0
+
+# Model Optimization & Deployment
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Web Interfaces (Optional)
+gradio>=3.35.0
+streamlit>=1.25.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Agricultural Data Processing (Advanced)
+geopandas>=0.13.0
+rasterio>=1.3.0
