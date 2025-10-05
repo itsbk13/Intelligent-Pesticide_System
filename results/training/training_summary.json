@@ -1,0 +1,185 @@
+{
+  "training_completed": "2025-10-02 19:35:12.657199",
+  "models_trained": 6,
+  "models_saved": 6,
+  "results": {
+    "UNet-ResNet50": {
+      "status": "SUCCESS",
+      "best_accuracy": 99.66777408637874,
+      "history": {
+        "train_loss": [
+          0.23633633359827325,
+          0.11109319773264402,
+          0.025343052505289648,
+          0.01756989074602338,
+          0.04546758721172044,
+          0.0553445615463643
+        ],
+        "train_acc": [
+          93.18936877076412,
+          96.92691029900332,
+          99.5016611295681,
+          99.66777408637874,
+          98.9202657807309,
+          98.67109634551495
+        ]
+      },
+      "model_saved": true
+    },
+    "UNet-EfficientNet": {
+      "status": "SUCCESS",
+      "best_accuracy": 99.66777408637874,
+      "history": {
+        "train_loss": [
+          0.17067875558791987,
+          0.05856712183611857,
+          0.02326580876401553,
+          0.02055538744349311,
+          0.04472298635733521,
+          0.025803979879491335
+        ],
+        "train_acc": [
+          95.43189368770764,
+          99.00332225913621,
+          99.66777408637874,
+          99.5016611295681,
+          99.16943521594685,
+          99.25249169435216
+        ]
+      },
+      "model_saved": true
+    },
+    "DeepLabV3Plus-ResNet50": {
+      "status": "SUCCESS",
+      "best_accuracy": 100.0,
+      "history": {
+        "train_loss": [
+          0.18739839329266691,
+          0.03501749657435506,
+          0.03265296954416884,
+          0.028166269275862212,
+          0.0239383114946465,
+          0.002584201795644335
+        ],
+        "train_acc": [
+          94.43521594684385,
+          99.4186046511628,
+          99.08637873754152,
+          99.5016611295681,
+          98.83720930232558,
+          100.0
+        ]
+      },
+      "model_saved": true
+    },
+    "DeepLabV3Plus-EfficientNet": {
+      "status": "SUCCESS",
+      "best_accuracy": 99.75083056478405,
+      "history": {
+        "train_loss": [
+          0.19063925589838968,
+          0.04804921255242373,
+          0.029858542198720493,
+          0.015703572951201825,
+          0.0373951558385942,
+          0.02019489055977182
+        ],
+        "train_acc": [
+          95.68106312292359,
+          98.75415282392026,
+          99.25249169435216,
+          99.75083056478405,
+          98.67109634551495,
+          99.5016611295681
+        ]
+      },
+      "model_saved": true
+    },
+    "NWRD-ResNet50": {
+      "status": "SUCCESS",
+      "best_accuracy": 99.75083056478405,
+      "history": {
+        "train_loss": [
+          0.1908997951804094,
+          0.11054402615169552,
+          0.08685751039339203,
+          0.08817515220695452,
+          0.07802879414064295,
+          0.04921855635518757
+        ],
+        "train_acc": [
+          94.76744186046511,
+          96.17940199335548,
+          99.4186046511628,
+          98.421926910299,
+          98.83720930232558,
+          99.75083056478405
+        ]
+      },
+      "model_saved": true
+    },
+    "NWRD-EfficientNet": {
+      "status": "SUCCESS",
+      "best_accuracy": 99.83388704318936,
+      "history": {
+        "train_loss": [
+          0.20633664609248628,
+          0.056563126989481724,
+          0.024746334818006182,
+          0.009244525195856983,
+          0.04039693361349983,
+          0.019440441276067658
+        ],
+        "train_acc": [
+          94.51827242524917,
+          99.08637873754152,
+          99.5016611295681,
+          99.83388704318936,
+          99.00332225913621,
+          99.5016611295681
+        ]
+      },
+      "model_saved": true
+    }
+  },
+  "saved_models": {
+    "UNet-ResNet50": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/UNet-ResNet50_trained.pth",
+      "filename": "UNet-ResNet50_trained.pth",
+      "size_mb": 124.40158367156982,
+      "accuracy": 99.66777408637874
+    },
+    "UNet-EfficientNet": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/UNet-EfficientNet_trained.pth",
+      "filename": "UNet-EfficientNet_trained.pth",
+      "size_mb": 24.170329093933105,
+      "accuracy": 99.66777408637874
+    },
+    "DeepLabV3Plus-ResNet50": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/DeepLabV3Plus-ResNet50_trained.pth",
+      "filename": "DeepLabV3Plus-ResNet50_trained.pth",
+      "size_mb": 102.12210083007812,
+      "accuracy": 100.0
+    },
+    "DeepLabV3Plus-EfficientNet": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/DeepLabV3Plus-EfficientNet_trained.pth",
+      "filename": "DeepLabV3Plus-EfficientNet_trained.pth",
+      "size_mb": 19.055553436279297,
+      "accuracy": 99.75083056478405
+    },
+    "NWRD-ResNet50": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/NWRD-ResNet50_trained.pth",
+      "filename": "NWRD-ResNet50_trained.pth",
+      "size_mb": 124.40158367156982,
+      "accuracy": 99.75083056478405
+    },
+    "NWRD-EfficientNet": {
+      "path": "/content/drive/MyDrive/intelligent_pesticide_system/models/trained/NWRD-EfficientNet_trained.pth",
+      "filename": "NWRD-EfficientNet_trained.pth",
+      "size_mb": 24.170329093933105,
+      "accuracy": 99.83388704318936
+    }
+  },
+  "best_accuracy": 100.0,
+  "average_accuracy": 99.77851605758583
+}
