@@ -1,0 +1,29 @@
+{
+  "classification": {
+    "total_samples": 3006,
+    "severity_distribution": {
+      "severe": 2025,
+      "moderate": 884,
+      "mild": 54,
+      "none": 43
+    },
+    "train_samples": 2104,
+    "val_samples": 451,
+    "test_samples": 451
+  },
+  "segmentation": {
+    "total_samples": 11458,
+    "train_samples": 7916,
+    "val_samples": 1247,
+    "test_samples": 2295
+  },
+  "config": {
+    "image_size": 512,
+    "classification_classes": 4,
+    "segmentation_classes": 2,
+    "datasets_used": [
+      "plantseg",
+      "diamos"
+    ]
+  }
+}

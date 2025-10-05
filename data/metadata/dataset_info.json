@@ -1,0 +1,23 @@
+{
+  "datasets_used": {
+    "plantseg": {
+      "source": "https://zenodo.org/records/13924591",
+      "size": "2GB",
+      "type": "segmentation",
+      "path": "data/raw/plantseg/"
+    },
+    "diamos": {
+      "source": "https://zenodo.org/records/5557313",
+      "size": "13GB",
+      "type": "classification",
+      "path": "data/raw/diamos/"
+    },
+    "nwrd": {
+      "source": "https://github.com/dll-ncai/NUST-Wheat-Rust-Disease-NWRD",
+      "type": "architecture_only",
+      "note": "Using model architecture, not dataset"
+    }
+  },
+  "updated": "2025-10-01",
+  "nwrd_folder_removed": true
+}
