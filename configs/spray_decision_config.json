@@ -1,0 +1,48 @@
+{
+  "real_data_distribution": {
+    "severity": {
+      "healthy": 0.31575354155999313,
+      "mild": 0.39255845707458614,
+      "moderate": 6.4089435057176996,
+      "severe": 14.686806622290494
+    }
+  },
+  "treatment_costs": {
+    "none": 0.0,
+    "preventive": 2.5,
+    "light": 3.5,
+    "moderate": 5.0,
+    "heavy": 10.0,
+    "intensive": 12.0
+  },
+  "economic_parameters": {
+    "treatment_costs": {
+      "none": 0.0,
+      "preventive": 2.5,
+      "light": 3.5,
+      "moderate": 5.0,
+      "heavy": 10.0,
+      "intensive": 12.0
+    },
+    "damage_costs": {
+      "0": 10,
+      "1": 25,
+      "2": 50,
+      "3": 100
+    },
+    "treatment_effectiveness": {
+      "none": 0.0,
+      "preventive": 60.0,
+      "light": 70.0,
+      "moderate": 85.0,
+      "heavy": 95.0,
+      "intensive": 98.0
+    },
+    "infection_thresholds": {
+      "low": 10.0,
+      "moderate": 25.0,
+      "high": 40.0
+    },
+    "crop_value_per_acre": 800
+  }
+}
