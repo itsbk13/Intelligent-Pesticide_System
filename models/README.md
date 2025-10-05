@@ -14,7 +14,7 @@ This directory contains trained models and associated configuration files for th
  
 ## Usage of NWRD Model
 
-The NUST Wheat Rust Disease (NWRD) pretrained models included in this project to train alongside **PlantSeg** dataset for high-precision leaf segmentation both from closer & aerial view. Subsequently, these models are fine-tuned and integrated with the **DiaMOS** dataset to perform disease severity classification across four categories: Healthy, Mild, Moderate, and Severe.
+The NUST Wheat Rust Disease (NWRD) pretrained models are included in this project to train alongside **PlantSeg** dataset for high-precision leaf segmentation from both closer & aerial view. Subsequently, these models are fine-tuned and integrated with the **DiaMOS** dataset to perform disease severity classification across four categories: Healthy, Mild, Moderate, and Severe.
 
 This multi-stage training approach leverages the high-quality segmentation masks of PlantSeg to improve feature extraction, while the diverse and challenging classifications from DiaMOS enable accurate severity prediction.
 
