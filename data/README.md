@@ -19,7 +19,7 @@ This directory contains metadata and processed data files required for the Intel
 
 - **DiaMOS Dataset:** A comprehensive set of images annotated with wheat rust disease severity levels across four severity classes: Healthy, Mild, Moderate, Severe.
 
-- **Integration:** Data from PlantSeg and NWRD are combined and processed to form a unified dataset for training and evaluation.
+- **Integration:** Data from PlantSeg and NWRD models are combined and processed to form a unified dataset for training and evaluation.
 
 ## Obtaining the Raw Data
 
