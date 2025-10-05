@@ -1,0 +1,117 @@
+{
+  "image_size": 512,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "intensities": {
+    "light": {
+      "rotation_limit": 25,
+      "brightness_limit": 0.2,
+      "contrast_limit": 0.2,
+      "noise_limit": 35,
+      "blur_limit": 5
+    },
+    "medium": {
+      "rotation_limit": 45,
+      "brightness_limit": 0.4,
+      "contrast_limit": 0.4,
+      "noise_limit": 60,
+      "blur_limit": 7
+    },
+    "strong": {
+      "rotation_limit": 60,
+      "brightness_limit": 0.5,
+      "contrast_limit": 0.5,
+      "noise_limit": 80,
+      "blur_limit": 9
+    }
+  },
+  "segmentation_augmentations": {
+    "geometric": [
+      "rotate",
+      "flip_horizontal",
+      "flip_vertical",
+      "random_scale"
+    ],
+    "spatial": [
+      "elastic_transform",
+      "grid_distortion",
+      "optical_distortion"
+    ],
+    "color": [
+      "brightness_contrast",
+      "hue_saturation",
+      "color_jitter"
+    ],
+    "noise": [
+      "gauss_noise",
+      "iso_noise"
+    ],
+    "blur": [
+      "motion_blur",
+      "median_blur",
+      "gaussian_blur"
+    ],
+    "weather": [
+      "random_fog",
+      "sun_flare"
+    ]
+  },
+  "classification_augmentations": {
+    "geometric": [
+      "rotate",
+      "flip_horizontal",
+      "flip_vertical",
+      "transpose",
+      "random_scale"
+    ],
+    "spatial": [
+      "elastic_transform",
+      "grid_distortion",
+      "optical_distortion",
+      "random_crop"
+    ],
+    "color": [
+      "brightness_contrast",
+      "hue_saturation",
+      "color_jitter",
+      "rgb_shift",
+      "channel_shuffle"
+    ],
+    "noise": [
+      "gauss_noise",
+      "iso_noise",
+      "multiplicative_noise"
+    ],
+    "blur": [
+      "motion_blur",
+      "median_blur",
+      "gaussian_blur"
+    ],
+    "weather": [
+      "random_fog",
+      "sun_flare",
+      "random_shadow"
+    ],
+    "quality": [
+      "to_gray"
+    ]
+  },
+  "probabilities": {
+    "geometric_transforms": 0.8,
+    "color_transforms": 0.7,
+    "noise_blur": 0.4,
+    "weather_effects": 0.3,
+    "spatial_transforms": 0.4
+  },
+  "ready_for_training": true
+}

@@ -1,0 +1,9 @@
+{
+  "setup_complete": true,
+  "system_ready": true,
+  "dependencies_ready": true,
+  "structure_ready": true,
+  "plantseg_found": true,
+  "diamos_found": true,
+  "ready_for_data_prep": true
+}

@@ -1,0 +1,57 @@
+{
+  "paths": {
+    "base_dir": "/content/drive/MyDrive/intelligent_pesticide_system",
+    "data_dir": "/content/drive/MyDrive/intelligent_pesticide_system/data",
+    "raw_data_dir": "/content/drive/MyDrive/intelligent_pesticide_system/data/raw",
+    "models_dir": "/content/drive/MyDrive/intelligent_pesticide_system/models",
+    "results_dir": "/content/drive/MyDrive/intelligent_pesticide_system/results",
+    "notebooks_dir": "/content/drive/MyDrive/intelligent_pesticide_system/notebooks",
+    "metadata_dir": "/content/drive/MyDrive/intelligent_pesticide_system/data/metadata"
+  },
+  "device": "cuda",
+  "model_params": {
+    "image_size": 512,
+    "batch_size": 8,
+    "num_workers": 4
+  },
+  "training_params": {
+    "learning_rate": 0.0001,
+    "num_epochs": 50,
+    "early_stopping_patience": 10
+  },
+  "dataset_params": {
+    "num_classes": 4,
+    "severity_labels": {
+      "0": "healthy",
+      "1": "curl",
+      "2": "spot",
+      "3": "slug"
+    },
+    "spray_thresholds": {
+      "low": 15.0,
+      "high": 30.0
+    },
+    "data_splits": {
+      "train": 0.7,
+      "val": 0.2,
+      "test": 0.1
+    }
+  },
+  "dataset_info": {
+    "plantseg": {
+      "type": "segmentation",
+      "has_pretrained_splits": true,
+      "structure": "images/{train,val,test}/, annotations/{train,val,test}/, json/"
+    },
+    "diamos": {
+      "type": "classification",
+      "categories": [
+        "healthy",
+        "curl",
+        "spot",
+        "slug"
+      ],
+      "structure": "leaves/{healthy,curl,spot,slug}/, fruits/, annotation/csv/"
+    }
+  }
+}
