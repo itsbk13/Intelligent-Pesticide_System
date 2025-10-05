@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-10-03T08:59:28.926696",
+  "data_source": "real_agricultural_dataset",
+  "notebook": "Notebook 6 - Real Data Spray Decisions",
+  "dataset_statistics": {
+    "total_samples": 11718,
+    "train_samples": 10020,
+    "val_samples": 1698,
+    "severity_distribution": {
+      "-1": 0.7819593787335722,
+      "0": 0.0031575354155999316,
+      "1": 0.003925584570745861,
+      "2": 0.064089435057177,
+      "3": 0.14686806622290494
+    }
+  },
+  "real_data_distribution": {
+    "severity": {
+      "healthy": 0.31575354155999313,
+      "mild": 0.39255845707458614,
+      "moderate": 6.4089435057176996,
+      "severe": 14.686806622290494
+    }
+  },
+  "economic_parameters": {
+    "treatment_costs": {
+      "none": 0.0,
+      "preventive": 2.5,
+      "light": 3.5,
+      "moderate": 5.0,
+      "heavy": 10.0,
+      "intensive": 12.0
+    },
+    "damage_costs": {
+      "0": 10,
+      "1": 25,
+      "2": 50,
+      "3": 100
+    },
+    "treatment_effectiveness": {
+      "none": 0.0,
+      "preventive": 60.0,
+      "light": 70.0,
+      "moderate": 85.0,
+      "heavy": 95.0,
+      "intensive": 98.0
+    },
+    "infection_thresholds": {
+      "low": 10.0,
+      "moderate": 25.0,
+      "high": 40.0
+    },
+    "crop_value_per_acre": 800
+  },
+  "analysis_results": {
+    "total_fields": 1000,
+    "fields_requiring_spray": 989,
+    "spray_rate_percentage": 98.9,
+    "total_spray_cost": 294607.20835254015,
+    "total_damage_prevented": 1131922.6097509076,
+    "total_net_benefit": 837315.4013983675,
+    "average_roi_positive": 344.5307719735822,
+    "economic_viability": "\u2705 HIGHLY VIABLE"
+  },
+  "severity_breakdown": {
+    "Healthy": {
+      "fields": 11,
+      "percentage": 1.0999999999999999,
+      "spray_rate": 0.0
+    },
+    "Mild": {
+      "fields": 18,
+      "percentage": 1.7999999999999998,
+      "spray_rate": 100.0
+    },
+    "Moderate": {
+      "fields": 288,
+      "percentage": 28.799999999999997,
+      "spray_rate": 100.0
+    },
+    "Severe": {
+      "fields": 683,
+      "percentage": 68.30000000000001,
+      "spray_rate": 100.0
+    }
+  },
+  "validation": {
+    "distribution_match": "verified",
+    "economic_parameters_source": "agricultural_research",
+    "decision_logic_source": "real_data_driven",
+    "ready_for_deployment": true
+  }
+}

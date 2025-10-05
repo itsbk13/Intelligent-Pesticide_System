@@ -1,0 +1,7 @@
+Model,Status,Best_Accuracy,Target_60_Achieved
+UNet-ResNet50,SUCCESS,99.7%,Yes
+UNet-EfficientNet,SUCCESS,99.7%,Yes
+DeepLabV3Plus-ResNet50,SUCCESS,100.0%,Yes
+DeepLabV3Plus-EfficientNet,SUCCESS,99.8%,Yes
+NWRD-ResNet50,SUCCESS,99.8%,Yes
+NWRD-EfficientNet,SUCCESS,99.8%,Yes

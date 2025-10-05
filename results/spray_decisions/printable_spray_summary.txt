@@ -1,0 +1,30 @@
+
+FARM SPRAY DECISION ANALYSIS REPORT
+===================================
+
+Report Generated: 2025-10-03 05:50:24
+Total Fields: 20
+Total Area: 376.7 acres
+
+EXECUTIVE SUMMARY
+-----------------
+• Spray Recommendation Rate: 45.0%
+• Critical Fields: 0
+• High Priority Fields: 3
+• Total Investment Required: $973.30
+• Expected Savings: $2154.66
+• Net Benefit: $1181.36
+• Overall ROI: 121.4%
+
+CRITICAL ACTION ITEMS
+---------------------
+• No critical fields requiring immediate action
+
+FARM RECOMMENDATIONS
+--------------------
+
+TREATMENT TYPE BREAKDOWN
+------------------------
+• Light: $282.05
+• Moderate: $155.25
+• Heavy: $536.00

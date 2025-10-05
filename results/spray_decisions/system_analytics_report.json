@@ -1,0 +1,175 @@
+{
+  "system_analytics_summary": {
+    "timestamp": "2025-10-03T05:50:31.741968",
+    "analysis_scope": "20 fields analyzed",
+    "performance_metrics": {
+      "decision_accuracy": {
+        "confidence_by_severity": {
+          "3": {
+            "average_confidence": 0.77,
+            "std_confidence": 0.06,
+            "count": 2,
+            "severity_name": "Severe (Slug/Major damage)",
+            "severity_level": 3
+          },
+          "0": {
+            "average_confidence": 0.7981818181818181,
+            "std_confidence": 0.08009292124187911,
+            "count": 11,
+            "severity_name": "Healthy",
+            "severity_level": 0
+          },
+          "1": {
+            "average_confidence": 0.798,
+            "std_confidence": 0.11461239025515522,
+            "count": 5,
+            "severity_name": "Mild (Curl)",
+            "severity_level": 1
+          },
+          "2": {
+            "average_confidence": 0.8400000000000001,
+            "std_confidence": 0.08000000000000002,
+            "count": 2,
+            "severity_name": "Moderate (Spot)",
+            "severity_level": 2
+          }
+        },
+        "spray_consistency": {
+          "high_confidence_spray_rate": 45.45454545454545,
+          "low_confidence_spray_rate": 44.44444444444444,
+          "economic_decision_accuracy": 20.0
+        }
+      },
+      "economic_efficiency": {
+        "roi_statistics": {
+          "mean_roi": 18.487500000000004,
+          "median_roi": 0.0,
+          "std_roi": 72.99267236339547,
+          "positive_roi_rate": 20.0
+        },
+        "benefit_statistics": {
+          "total_net_benefit": 1181.36025,
+          "average_net_benefit": 59.068012499999995,
+          "profitable_fields_count": 4,
+          "total_spray_investment": 973.3,
+          "average_spray_cost": 108.14444444444445
+        },
+        "efficiency_by_severity": {
+          "0": {
+            "count": 11,
+            "average_roi": 0.0,
+            "average_benefit": 0.0,
+            "spray_rate": 0.0,
+            "severity_name": "Healthy",
+            "severity_level": 0
+          },
+          "1": {
+            "count": 5,
+            "average_roi": -36.019999999999996,
+            "average_benefit": -20.11325,
+            "spray_rate": 100.0,
+            "severity_name": "Mild (Curl)",
+            "severity_level": 1
+          },
+          "2": {
+            "count": 2,
+            "average_roi": 50.025000000000006,
+            "average_benefit": 39.71325,
+            "spray_rate": 100.0,
+            "severity_name": "Moderate (Spot)",
+            "severity_level": 2
+          },
+          "3": {
+            "count": 2,
+            "average_roi": 224.89999999999998,
+            "average_benefit": 601.25,
+            "spray_rate": 100.0,
+            "severity_name": "Severe (Slug/Major damage)",
+            "severity_level": 3
+          }
+        }
+      },
+      "crop_specific": {
+        "Wheat": {
+          "total_fields": 8,
+          "total_area_acres": 209.3,
+          "spray_recommendation_rate": 37.5,
+          "average_confidence": 0.7925,
+          "average_severity_level": 0.625,
+          "total_investment": 478.85,
+          "total_damage_prevention": 1118.51325,
+          "net_benefit": 639.66325,
+          "roi_percentage": 133.58322021509866,
+          "profit_per_acre": 3.0562028189202097
+        },
+        "Corn": {
+          "total_fields": 5,
+          "total_area_acres": 85.3,
+          "spray_recommendation_rate": 60.0,
+          "average_confidence": 0.812,
+          "average_severity_level": 1.0,
+          "total_investment": 300.95,
+          "total_damage_prevention": 775.49875,
+          "net_benefit": 474.5487499999999,
+          "roi_percentage": 157.68358531317492,
+          "profit_per_acre": 5.563291324736224
+        },
+        "Soybean": {
+          "total_fields": 5,
+          "total_area_acres": 62.4,
+          "spray_recommendation_rate": 40.0,
+          "average_confidence": 0.8019999999999999,
+          "average_severity_level": 0.6,
+          "total_investment": 86.25,
+          "total_damage_prevention": 96.55575,
+          "net_benefit": 10.30575,
+          "roi_percentage": 11.948695652173914,
+          "profit_per_acre": 0.16515625
+        },
+        "Potato": {
+          "total_fields": 2,
+          "total_area_acres": 19.700000000000003,
+          "spray_recommendation_rate": 50.0,
+          "average_confidence": 0.79,
+          "average_severity_level": 1.0,
+          "total_investment": 107.25,
+          "total_damage_prevention": 164.0925,
+          "net_benefit": 56.8425,
+          "roi_percentage": 53.0,
+          "profit_per_acre": 2.885406091370558
+        }
+      },
+      "optimization_recommendations": [
+        {
+          "category": "Economic Efficiency",
+          "priority": "Medium",
+          "issue": "Only 20.0% of decisions show positive ROI",
+          "recommendation": "Review cost parameters and damage estimates for accuracy",
+          "expected_impact": "Improved economic decision making"
+        },
+        {
+          "category": "Crop Management",
+          "priority": "Low",
+          "issue": "Soybean shows lower ROI (11.9%)",
+          "recommendation": "Review Soybean-specific treatment protocols and costs",
+          "expected_impact": "Optimized crop-specific spray strategies"
+        },
+        {
+          "category": "Crop Management",
+          "priority": "Low",
+          "issue": "Potato shows lower ROI (53.0%)",
+          "recommendation": "Review Potato-specific treatment protocols and costs",
+          "expected_impact": "Optimized crop-specific spray strategies"
+        },
+        {
+          "category": "System Performance",
+          "priority": "Medium",
+          "issue": "Average model confidence is 80.0%",
+          "recommendation": "Consider model retraining with additional data or feature engineering",
+          "expected_impact": "Higher prediction confidence and accuracy"
+        }
+      ]
+    },
+    "system_health_score": 20.0
+  }
+}

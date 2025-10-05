@@ -1,0 +1,35 @@
+{
+  "field_identification": {
+    "field_id": "FIELD_001",
+    "field_name": "Wheat Field #1",
+    "location": "Zone_A",
+    "crop_type": "Wheat",
+    "field_size_acres": 32.0,
+    "inspection_date": "2025-10-03"
+  },
+  "condition_assessment": {
+    "severity_level": 3,
+    "severity_description": "Severe (Slug/Major damage)",
+    "model_confidence": "83.0%",
+    "infection_percentage": "33.9%",
+    "healthy_area": "66.1%"
+  },
+  "spray_recommendation": {
+    "recommendation": "Intensive Treatment Required",
+    "spray_needed": true,
+    "priority_level": "High",
+    "treatment_type": "heavy",
+    "confidence": 0.83
+  },
+  "economic_analysis": {
+    "spray_cost_per_acre": "$10.00",
+    "total_spray_cost": "$320.00",
+    "damage_prevented": "$1030.56",
+    "net_benefit": "$710.56",
+    "roi_percentage": "222.0%"
+  },
+  "action_items": [
+    "\u26a0\ufe0f Schedule intensive spray within 48 hours",
+    "\ud83d\udcca Monitor spread to adjacent fields"
+  ]
+}

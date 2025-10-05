@@ -1,0 +1,100 @@
+{
+  "report_metadata": {
+    "report_title": "Farm-wide Spray Decision Analysis Report",
+    "generated_date": "2025-10-03 05:50:24",
+    "analysis_period": "Current field inspection cycle",
+    "total_fields_analyzed": 20,
+    "total_area_coverage_acres": 376.7,
+    "report_version": "1.0"
+  },
+  "executive_summary": {
+    "fields_requiring_spray": 9,
+    "spray_recommendation_rate": "45.0%",
+    "critical_priority_fields": 0,
+    "high_priority_fields": 3,
+    "total_investment_required": "$973.30",
+    "expected_damage_prevention": "$2154.66",
+    "net_economic_benefit": "$1181.36",
+    "overall_roi": "121.4%"
+  },
+  "severity_distribution": {
+    "healthy_fields": 11,
+    "mild_infection": 5,
+    "moderate_infection": 2,
+    "severe_damage": 2
+  },
+  "crop_analysis": {
+    "Wheat": 8,
+    "Corn": 5,
+    "Soybean": 5,
+    "Potato": 2
+  },
+  "priority_fields": {
+    "critical_action_required": [],
+    "high_priority_fields": [
+      {
+        "field_id": "FIELD_001",
+        "crop_type": "Wheat",
+        "severity": "Severe (Slug/Major damage)",
+        "size_acres": 32.0,
+        "action_timeline": "48 hours"
+      },
+      {
+        "field_id": "FIELD_003",
+        "crop_type": "Corn",
+        "severity": "Severe (Slug/Major damage)",
+        "size_acres": 21.6,
+        "action_timeline": "48 hours"
+      },
+      {
+        "field_id": "FIELD_011",
+        "crop_type": "Potato",
+        "severity": "Moderate (Spot)",
+        "size_acres": 14.3,
+        "action_timeline": "48 hours"
+      }
+    ]
+  },
+  "economic_breakdown": {
+    "cost_by_treatment_type": {
+      "none": 0.0,
+      "light": 282.05,
+      "moderate": 155.25,
+      "heavy": 536.0,
+      "preventive": 0.0
+    },
+    "savings_by_crop_type": {
+      "Wheat": 1118.51325,
+      "Corn": 775.49875,
+      "Soybean": 96.55575,
+      "Potato": 164.0925
+    },
+    "field_profitability_ranking": [
+      {
+        "field_id": "FIELD_003",
+        "crop_type": "Corn",
+        "net_benefit": 491.93999999999994,
+        "roi_percentage": 227.75
+      },
+      {
+        "field_id": "FIELD_001",
+        "crop_type": "Wheat",
+        "net_benefit": 710.56,
+        "roi_percentage": 222.04999999999998
+      },
+      {
+        "field_id": "FIELD_011",
+        "crop_type": "Potato",
+        "net_benefit": 56.8425,
+        "roi_percentage": 53.0
+      },
+      {
+        "field_id": "FIELD_016",
+        "crop_type": "Soybean",
+        "net_benefit": 22.584000000000003,
+        "roi_percentage": 47.05000000000001
+      }
+    ]
+  },
+  "recommendations": []
+}
