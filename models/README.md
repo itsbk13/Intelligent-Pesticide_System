@@ -35,4 +35,4 @@ For more details on the original NWRD research, visit the [NUST Wheat Rust Disea
 
 ---
 
-*For more information on model training and architecture, please refer to [05_training_pipeline](05_training_pipeline.ipynb) and [04_model_architecture](04_model_architecture.ipynb)*
+*For more information on model training and architecture, please refer to [05_training_pipeline](notebooks/05_training_pipeline.ipynb) and [04_model_architecture](notebooks/04_model_architecture.ipynb)*
