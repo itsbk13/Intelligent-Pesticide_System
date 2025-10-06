@@ -61,7 +61,7 @@ The NUST Wheat Rust Disease (NWRD) pretrained models are integrated with PlantSe
 
 ```
 intelligent-pesticide-system/
-├── notebooks/                   # Complete project pipeline
+├── notebooks/                   # Complete research project pipeline
 │   ├── 01_environment_setup.ipynb
 │   ├── 02_data_preparation.ipynb
 │   ├── 03_data_augmentation.ipynb
@@ -132,15 +132,6 @@ intelligent-pesticide-system/
 - **DeepLabV3Plus**: State-of-the-art semantic segmentation with atrous convolution
 - **NWRD**: Specialized wheat rust disease detection models
 - **Backbone Networks**: ResNet50 and EfficientNet-B0 for feature extraction
-
-## 📚 Documentation
-
-### Research Pipeline:
-
-- **[Complete Notebooks](notebooks/)**: Step-by-step research methodology
-- **[Results Analysis](results/)**: Performance metrics and economic analysis
-- **[Configuration Guide](configs/)**: Model and system parameters
-- **[Documentation](docs/)**: Presentations
 
 ## 📄 License
 
