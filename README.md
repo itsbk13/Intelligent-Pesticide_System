@@ -31,13 +31,13 @@ This project implements a sophisticated multi-task learning approach:
 2. **Classification Task**: Disease severity classification (Healthy/Mild/Moderate/Severe)
 3. **Economic Integration**: Real-world cost-benefit analysis for spray decisions
 
-### Dataset Integration:
+### [Dataset](https://github.com/itsbk13/Intelligent-Pesticide_System/blob/main/data/README.md) Integration:
 
 - **PlantSeg Dataset**: 11,458 high-resolution leaf images with pixel-perfect segmentation masks
 - **DiaMOS Dataset**: 3,005 expert-annotated wheat rust severity classifications
 - **Data Quality**: Multi-source validation ensuring robust generalization across agricultural conditions
 
-### NWRD Integration:
+### [NWRD](https://github.com/itsbk13/Intelligent-Pesticide_System/blob/main/models/README.md) Integration:
 
 The NUST Wheat Rust Disease (NWRD) pretrained models are integrated with PlantSeg for precise segmentation, then fine-tuned with DiaMOS for disease severity classification. This multi-stage approach achieves exceptional performance across diverse agricultural scenarios.
 
