@@ -26,7 +26,7 @@ This directory contains metadata and processed data files required for the Intel
 To obtain the raw PlantSeg and DiaMOS data, please refer to their respective official sources:
 
 - PlantSeg: [Reference](https://www.kaggle.com/datasets/weitianqi/plantseg)
-- DiaMOS: [Reference](https://www.kaggle.com/datasets/alexandraneagu101/diamos-plant-dataset)
+- DiaMOS: [Reference](https://zenodo.org/records/5557313)
 
 ## Usage
 
