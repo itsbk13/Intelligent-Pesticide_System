@@ -81,7 +81,8 @@ intelligent-pesticide-system/
 │   └── evaluation_testing/           # Performance benchmarks
 |
 ├── configs/                     # Model and system configurations
-└── docs/                        # Documentations
+├── docs/                        # Documentations
+└── requirements.txt                        
 ```
 
 ## 🎯 Key Features
