@@ -29,7 +29,7 @@ This directory contains experimental results, evaluations, and analysis outputs 
   - Economic return on investment calculated at 344%
   - Robustness and sensitivity analyses confirming practical efficacy
 
-- Visualizations provided in this directory can be used directly in academic publications and presentations.
+- Visualizations provided in this directory can be used directly in academic publications and presentations, provided that proper credit is given to this project.
 
 ## Usage
 
